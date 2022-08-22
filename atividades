@@ -44,4 +44,35 @@ public class ex3 {
 ********************************************
 ex.5
 
- A Classe primitiva é como declarar a variável sobre uma modalidade como um numero inteiro, tendo varias classes como o double, já wrapper class é o conjunto de todos eles, como se o wrapper class fosse um titulo e a classe primitiva os tópicos desse titulo.
+ A Classe primitiva é como declarar a variável sobre uma modalidade como um 
+ numero inteiro, tendo varias classes como o double, já wrapper class é o conjunto 
+ de todos eles, como se o wrapper class fosse um titulo e a classe primitiva os tópicos desse titulo.
+ ********************************
+ ex8
+ 
+package atividades;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class atividades {
+
+    public static void main(String[] args) {
+        // TODO Auto-generated method stub
+
+
+
+        Scanner leitura = new Scanner(System.in);
+
+        String[] vetor = new String[10];
+        for (int i = 0; i < vetor.length; i++) {
+            System.out.println("Insira valor:");
+            vetor[i] = leitura.nextLine();
+        }
+
+        vetor[0] = "valor";
+        for (int i = 0; i < vetor.length; i++) {
+            System.out.println(vetor[i]);
+        }
+    }
+}
