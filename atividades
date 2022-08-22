@@ -1,0 +1,47 @@
+ex.12
+package atividades;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class atividades {
+
+    public static void main(String[] args) {
+        // TODO Auto-generated method stub
+
+        ArrayList<String> listaNomes = new ArrayList<>();
+        Scanner leitura = new Scanner(System.in);
+
+        for (int j = 0; j < 10; j++) {
+            System.out.println("Insira um nome:");
+            String nome = leitura.nextLine();
+            if (!nome.isEmpty()) {
+                listaNomes.add(nome);
+            }
+
+        }
+
+        listaNomes.set(4, "Erick");
+    }
+}
+*******************************************************
+ex.3
+
+package ex3;
+
+public class ex3 {
+
+    public static void main(String[] args) {}
+
+        public Double calcabs(Double qtdLitros, Double precoLitros) {
+        if(qtdLitros == null) {
+        
+    }
+
+    return qtdLitros * precoLitros;
+}
+}
+********************************************
+ex.5
+
+ A Classe primitiva é como declarar a variável sobre uma modalidade como um numero inteiro, tendo varias classes como o double, já wrapper class é o conjunto de todos eles, como se o wrapper class fosse um titulo e a classe primitiva os tópicos desse titulo.
